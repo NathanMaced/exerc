@@ -1,8 +1,8 @@
 <?php 
 
-$a = 23;
-$b = 10;
-$c = 50;
+$a = 1;
+$b = 2;
+$c = 3;
 
 	if($a>$b){
 		if($a>$c){
@@ -18,6 +18,14 @@ $c = 50;
 			echo $c."<br>";
 			echo $a."<br>";
 			echo $b."<br>";
+		}
+	}else{
+		if($b > $c){
+			echo $b."<br>";
+			if($c>$a){
+				echo $c."<br>";
+				echo $a."<br>";
+			}
 		}
 	}
 
