@@ -1,29 +1,25 @@
 <?php 
 
-$nome = "Maria";
-$idade = 24;
-$valor = 2;
+$a = 23;
+$b = 10;
+$c = 50;
 
-	switch ($valor) {
-			//masculino
-			case 1 :
-			break;
-
-			//feminino
-			case 2 :
-			break;
-
-			default:
-			echo "Opção inválida";
-			break;
+	if($a>$b){
+		if($a>$c){
+			echo $a."<br>";
+			if($b>$c){
+				echo $b."<br>";
+				echo $c."<br>"; 
+			}else{
+				echo $c."<br>";
+				echo $b."<br>";
+			}
+		}else{
+			echo $c."<br>";
+			echo $a."<br>";
+			echo $b."<br>";
+		}
 	}
-
-	if($idade <25 && $valor ==2){
-		echo $nome. "ACEITA";
-	}else{
-		echo $nome. "NÃO ACEITA";
-	}
-
 
 
 ?>
