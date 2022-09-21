@@ -1,7 +1,7 @@
 <?php 
 
 $nome = "Maria";
-$idade = 24;
+$idade = 23;
 $valor = 2;
 
 	switch ($valor) {
@@ -19,9 +19,9 @@ $valor = 2;
 	}
 
 	if($idade <25 && $valor ==2){
-		echo $nome. "ACEITA";
+		echo $nome. " ACEITA";
 	}else{
-		echo $nome. "NÃO ACEITA";
+		echo $nome. " NÃO ACEITA";
 	}
 
 
